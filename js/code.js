@@ -18,7 +18,7 @@ const execute = (message) => {
     eval(bot[message]());
 };
 
-const reply = (message) => {
+const comment = (message) => {
     $('#reply').append(`
         <p class="author">봇</p>
         <p class="content">${message}</p>
