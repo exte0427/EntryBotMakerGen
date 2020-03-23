@@ -38,7 +38,7 @@ const compiler = () => {
     let id;
     let botName = 'bot';
     let like;
-    let user;
+    let owner;
     let created;
     alert('BOT - 실행됨');
     const comment = (a) => {
@@ -72,7 +72,7 @@ const compiler = () => {
         text = d.data[0].title;
         id = d.data[0]._id;
         like = d.data[0].likesLength;
-        user = d.data[0].owner;
+        owner = d.data[0].owner;
         created = d.data[0].created;
       })
       if (id != lastID) {
