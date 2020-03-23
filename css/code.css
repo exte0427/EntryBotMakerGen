@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-style: "Roboto", Arial, sans-serif;
+    background-color: #14161c;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+a {
+    color: #00B7FF;
+}
+
+#playerWrapper {
+    padding: 30px;
+    position: static;
+}
+
+#player {
+    background-color: #1f2430;
+    width: calc(100vw - 60px);
+    height: 30vh;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-y: auto;
+}
+
+#send {
+    cursor: pointer;
+    background-color: #1f2430;
+    width: calc(100vw - 60px);
+    height: 3vh;
+    border-radius: 0 0 20px 20px;
+    margin-top: -1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(109, 194, 255);
+}
+
+#code {
+    display: none;
+}
+
+#codeWrapper {
+    margin-top: 1vh;
+    background-color: #1f2430;
+    width: calc(100vw - 60px);
+    height: 58vh;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+}
+
+input {
+    width: calc(100vw - 60px);
+    height: 3vh;
+    border: 0;
+    background-color: #1f2430;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0 0 20px 20px;
+}
+
+#reply {
+    color: white;
+    margin-top: 20px !important;
+}
+
+#reply .author {
+    font-weight: bold;
+    font-size: large;
+    display: inline;
+}
+
+#reply .content {
+    font-weight: 100;
+    display: inline;
+    font-size: medium;
+    margin-left: 10px;
+}

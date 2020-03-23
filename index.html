@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='./css/code.css' />
+    <link rel="stylesheet" href="./css/codemirror.css">
+    <link rel="stylesheet" href="./css/ayu-mirage.css">
+</head>
+
+<body>
+    <div id="codeEditor">
+        <div id="playerWrapper">
+            <div id="player">
+                <div id="reply"></div>
+            </div>
+            <div id="send">
+                <input placeholder="메시지를 입력하세요." onkeyup="run()">
+            </div>
+            <div id="codeWrapper">
+                <textarea id="code"></textarea>
+            </div>
+            <br>
+            <button id="copy-url">코드 생성</button>
+        </div>
+    </div>
+
+
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.10.3/beautify.js"></script>
+    <script src="./js/codemirror.js"></script>
+    <script src="./js/javascript.js"></script>
+    <script src="./js/active-line.js"></script>
+    <script src="./js/matchbrackets.js"></script>
+    <script src="./js/compiler.js"></script>
+    <script src="./js/code.js"></script>
+</body>
+
+</html>
